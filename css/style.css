@@ -1,6 +1,13 @@
+/*inicio montagem tela configuracoes*/
+h1,h2,.foto-configuracoes{
+    border-radius: 1rem;
+    
+}
+
 .corpo-configuracoes{
     display:flex;
     flex-direction:column;
+    background-color: rgba(255, 255,255 , 0.753);
 
 }
 
@@ -21,11 +28,44 @@
 
 .titulo-configuracoes{
     background-color: rgba(101, 103, 103,1);
-    border-radius: 0.4rem;
-    padding: 0.5rem;
-    margin: 0.3rem;
-    min-width: 120px;
+    min-width: 140px;
+    margin: 0.4rem;
     text-align: center;
 }
 
+.nome-configuracoes{
+    background-color: rgba(101, 103, 103,1);
+    margin:0.4rem;
+    min-width: 200px;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    text-align: center;
+}
 
+.main-configuracoes{ /*vai ser aplicado aos filhos(todos os h2),mas nao vai acontecer nada especifico para cada h2, por isso tem que fazer uma classe para cada*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-configuracoes,.matricula-configuracoes,.seguranca-configuracoes{
+    background-color: rgba(101, 103, 103,1);
+    padding: 0.3rem;
+    min-width: 200px;
+    text-align: center;
+    margin: 3rem;
+    
+}
+
+.pe-configuracoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 1rem;
+    background-color: rgba(101, 103, 103,1);
+    padding: 1rem;
+    margin: 2.5rem;
+    max-width: 300px;
+}
+/*  fim montagem tela de configuracoes/inicio do app.*/
