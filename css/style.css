@@ -16,9 +16,8 @@ h1,h2,.foto-configuracoes{
     flex-direction: column;
     justify-content: space-between;
     background-color: #bd1616;
+    min-width: 300px;
     align-items: center;
-
-
 }
 
 .foto-configuracoes{
@@ -53,19 +52,25 @@ h1,h2,.foto-configuracoes{
     background-color: rgba(101, 103, 103,1);
     padding: 0.3rem;
     min-width: 200px;
+    max-width: 250px;
     text-align: center;
     margin: 3rem;
-    
 }
 
 .pe-configuracoes{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    border-radius: 1rem;
+    justify-content: center;
     background-color: rgba(101, 103, 103,1);
-    padding: 1rem;
-    margin: 2.5rem;
+    border-radius: 1rem;
+    min-width: 250px;
     max-width: 300px;
+    margin: 2rem;
+    padding: 0.3rem;
+    max-height: 40px;
+}
+.estudante-a,.configuracoes-a{
+    padding-left: 2.5rem;
+    
 }
 /*  fim montagem tela de configuracoes/inicio do app.*/
