@@ -77,10 +77,6 @@ h1,h2,.foto-configuracoes{
     padding: 0.3rem;
     max-height: 40px;
 }
-.estudante-a,.configuracoes-a{
-    padding-left: 2.5rem;
-    
-}
 /*  fim montagem tela de configuracoes do app.*/
 
 
@@ -150,3 +146,84 @@ h1,h2,.foto-configuracoes{
 }
 
 /*final montagem da tela do DA(tela3) do app.*/
+
+/*inicio montagem da tela entidades */
+
+.head-entidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-entidades{
+    display:flex;
+    flex-direction: column;
+}
+
+.ul-financas,.ul-acoessociais,.ul-tech{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-financas,.li-acoessociais,.li-tech{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-entidades{
+    margin: 2rem;
+    background-color: #D9D9D9;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    filter: drop-shadow(0px 3px 6px #000000);
+}
+
+.h1-financas{
+    margin:1rem;
+}
+
+.h1-acoessociais{
+    margin:0rem;
+}
+
+.h1-tech{
+    margin:1.8rem;
+}
+
+.img-financas,.img-acoessociais,.img-tech{
+    border-radius: 15%;
+    background-color: #E33B4D;
+    filter: drop-shadow(0px 3px 6px #000000);
+    max-width: 70px;
+    padding: 0.5rem 0.9rem;
+    margin:2rem;
+    margin-right: 4rem;
+}
+
+.estudante-a,.configuracoes-a,.home-a{
+    max-height: 30px;
+    max-width: 30px;
+    padding: 0.1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.img-group {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15%;
+    background-color: #D9D9D9;
+    filter: drop-shadow(0px 3px 6px #000000);
+    max-width: 70px;
+    max-height: 50px;
+}
+
+
+
+/*final montagem da tela entidades */
