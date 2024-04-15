@@ -257,3 +257,43 @@ h1,h2,.foto-configuracoes{
 }
 
 /*final montagem da tela ações sociais */
+
+/*Início da montagem da tela menu.*/
+
+.h1-MENU {
+    background-color: rgba(101, 103, 103,1);
+    margin: 1rem;
+    padding: 0.2rem;
+    min-width: 180px;
+    text-align: center;
+}
+
+.cabeca-MENU {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.ul-MENU {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5%
+}
+
+.section-MENU {
+    margin: 20%;
+}
+
+.main-menu {
+    position: fixed;
+    top: 30%;
+}
+
+
+
+/*Final da montagem da tela menu*/
