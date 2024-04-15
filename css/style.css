@@ -52,7 +52,6 @@ h1,h2,.foto-configuracoes{
     background-color: rgba(101, 103, 103,1);
     padding: 0.3rem;
     min-width: 200px;
-    max-width: 250px;
     text-align: center;
     margin: 3rem;
 }
@@ -64,7 +63,6 @@ h1,h2,.foto-configuracoes{
     background-color: rgba(101, 103, 103,1);
     border-radius: 1rem;
     min-width: 250px;
-    max-width: 300px;
     margin: 2rem;
     padding: 0.3rem;
     max-height: 40px;
@@ -73,4 +71,64 @@ h1,h2,.foto-configuracoes{
     padding-left: 2.5rem;
     
 }
-/*  fim montagem tela de configuracoes/inicio do app.*/
+/*  fim montagem tela de configuracoes do app.*/
+
+
+/*inicio montagem da tela de busca(tela2) do app.*/
+
+/*final montagem da tela de busca(tela2) do app.*/
+
+
+
+/*inicio montagem da tela do DA(tela3) do app.*/
+.corpo-DA{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cabeca-DA{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.main-DA{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-DA{
+    background-color: rgba(101, 103, 103,1);
+    margin: 1rem;
+    padding: 0.2rem;
+    min-width: 180px;
+    text-align: center;
+    
+}
+
+.fig-DA{
+    margin: 1rem;
+}
+
+.ul-DA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ul-eventos-DA,.ul-atividades-DA,.ul-intercambio-DA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.h1-eventos-DA,.h1-atividades-DA,.h1-intercambio-DA{
+    padding: 0.8rem;
+}
+
+/*final montagem da tela do DA(tela3) do app.*/
