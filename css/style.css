@@ -158,6 +158,7 @@ h1,h2,.foto-configuracoes{
 .main-entidades{
     display:flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .ul-financas,.ul-acoessociais,.ul-tech{
