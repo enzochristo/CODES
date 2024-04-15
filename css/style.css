@@ -1,13 +1,18 @@
 /*inicio montagem tela configuracoes*/
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
 h1,h2,.foto-configuracoes{
     border-radius: 1rem;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
 .corpo-configuracoes{
     display:flex;
     flex-direction:column;
-    background-color: rgba(255, 255,255 , 0.753);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -15,7 +20,7 @@ h1,h2,.foto-configuracoes{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #bd1616;
+    background-color:#E33B4D;
     min-width: 300px;
     align-items: center;
 }
@@ -26,18 +31,19 @@ h1,h2,.foto-configuracoes{
 }
 
 .titulo-configuracoes{
-    background-color: rgba(101, 103, 103,1);
+    background-color: #D9D9D9;
     min-width: 140px;
-    margin: 0.4rem;
+    margin: 0.2rem;
     text-align: center;
+    filter: drop-shadow(0px 5px 10px #000000);
 }
 
 .nome-configuracoes{
-    background-color: rgba(101, 103, 103,1);
+    background-color: #D9D9D9;
     margin:0.4rem;
     min-width: 200px;
     padding: 0.3rem;
-    margin: 0.3rem;
+    margin: 0.5rem;
     text-align: center;
 }
 
@@ -46,24 +52,28 @@ h1,h2,.foto-configuracoes{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 3rem;
 }
 
 .email-configuracoes,.matricula-configuracoes,.seguranca-configuracoes{
-    background-color: rgba(101, 103, 103,1);
+    background-color: #D9D9D9;
     padding: 0.3rem;
     min-width: 200px;
     text-align: center;
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .pe-configuracoes{
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: center;
-    background-color: rgba(101, 103, 103,1);
+    bottom: 10%;
+    background-color: #D9D9D9;
     border-radius: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
     min-width: 250px;
-    margin: 2rem;
     padding: 0.3rem;
     max-height: 40px;
 }
@@ -101,7 +111,7 @@ h1,h2,.foto-configuracoes{
 }
 
 .h1-DA{
-    background-color: rgba(101, 103, 103,1);
+    background-color:#D9D9D9;
     margin: 1rem;
     padding: 0.2rem;
     min-width: 180px;
@@ -111,6 +121,9 @@ h1,h2,.foto-configuracoes{
 
 .fig-DA{
     margin: 1rem;
+    background-color: ;
+    border: 0.2rem solid ;
+    border-radius: 20%;
 }
 
 .ul-DA{
@@ -129,6 +142,11 @@ h1,h2,.foto-configuracoes{
 
 .h1-eventos-DA,.h1-atividades-DA,.h1-intercambio-DA{
     padding: 0.8rem;
+}
+
+.img-resize{
+    max-width: 70px;
+    padding: 0.5rem 2.8rem;
 }
 
 /*final montagem da tela do DA(tela3) do app.*/
