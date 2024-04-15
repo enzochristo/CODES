@@ -68,13 +68,13 @@ h1,h2,.foto-configuracoes{
     position: fixed;
     flex-direction: row;
     justify-content: center;
-    bottom: 10%;
+    bottom: 2rem;
     background-color: #D9D9D9;
     border-radius: 1rem;
     left: 50%;
     transform: translateX(-50%);
     min-width: 250px;
-    padding: 0.3rem;
+    padding: 0.01rem;
     max-height: 40px;
 }
 /*  fim montagem tela de configuracoes do app.*/
