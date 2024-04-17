@@ -27,7 +27,9 @@ h1,h2,.foto-configuracoes{
 
 .foto-configuracoes{
     max-width: 80px;
-    margin: 0.8rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #D9D9D9;
 }
 
 .titulo-configuracoes{
@@ -35,7 +37,7 @@ h1,h2,.foto-configuracoes{
     min-width: 140px;
     margin: 0.2rem;
     text-align: center;
-    filter: drop-shadow(0px 5px 10px #000000);
+    filter: drop-shadow(0px 4px 6px #000000);
 }
 
 .nome-configuracoes{
@@ -45,6 +47,7 @@ h1,h2,.foto-configuracoes{
     padding: 0.3rem;
     margin: 0.5rem;
     text-align: center;
+    filter: drop-shadow(0px 4px 6px #000000);
 }
 
 .main-configuracoes{ /*vai ser aplicado aos filhos(todos os h2),mas nao vai acontecer nada especifico para cada h2, por isso tem que fazer uma classe para cada*/
@@ -61,6 +64,7 @@ h1,h2,.foto-configuracoes{
     min-width: 200px;
     text-align: center;
     margin: 2rem;
+    filter: drop-shadow(0px 3px 6px #000000);
 }
 
 .pe-configuracoes{
@@ -118,8 +122,7 @@ h1,h2,.foto-configuracoes{
 .fig-DA{
     margin: 1rem;
     background-color:#D9D9D9;
-    border: 0.2rem solid ;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 .ul-DA{
@@ -143,6 +146,15 @@ h1,h2,.foto-configuracoes{
 .img-resize{
     max-width: 70px;
     padding: 0.5rem 2.8rem;
+}
+
+.img-figDA{
+    max-width: 55px;
+    padding: 0.5rem 1.5rem;
+    background-color: #E33B4D;
+    border-radius: 20%;
+    filter: drop-shadow(0px 3px 6px #000000);
+
 }
 
 /*final montagem da tela do DA(tela3) do app.*/
@@ -261,42 +273,119 @@ h1,h2,.foto-configuracoes{
 /*Início da montagem da tela menu.*/
 
 .h1-MENU {
-    background-color: rgba(101, 103, 103,1);
-    margin: 1rem;
-    padding: 0.2rem;
-    min-width: 180px;
-    text-align: center;
+    margin: 2rem;
+    background-color: #D9D9D9;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    filter: drop-shadow(0px 3px 6px #000000);
 }
 
 .cabeca-MENU {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
-.ul-MENU {
+.ul-MENU-section {   
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+.section-MENU {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.main-menu {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.li-section {
+    margin: 5%;
+}
+
+.h2-section-MENU {
+    padding: 0.5rem;
+}
+
+.fundo-vermelho {
+    border-radius: 15%;
+    background-color: #E33B4D;
+    filter: drop-shadow(0px 3px 6px #000000);
+    max-width: 50px;
+    padding: 0.5rem 0.9rem;
+}
+
+.fig-MENU{
+    margin: 0.5rem;
+    background-color:#D9D9D9;
+    border: 0.01rem solid ;
+    border-radius: 100%;
+}
+
+.img-resize-MENU {
+    max-width: 30px;
+    padding: 0.5rem;
+}
+
+.ul-busca-MENU {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 5%
 }
-
-.section-MENU {
-    margin: 20%;
-}
-
-.main-menu {
-    position: fixed;
-    top: 30%;
-}
-
 
 
 /*Final da montagem da tela menu*/
+
+/* Início da montagem da tela Home */
+
+.header-HOME {
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    justify-content: center;
+}
+
+.h1-HOME {
+    margin: 2rem;
+    background-color: #cf2e2e;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 2.5rem;
+    /* filter: drop-shadow(0px 3px 6px #000000); */
+
+}
+
+/* .main-HOME { */
+    /* display: flex; */
+    /* flex-direction: column; */
+
+/* } */
+
+.img-HOME {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-height: 425px;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+
+}
+
+/* Final da montagem da tela menu */
 /* Inicio montagem da tela Atendimento*/
 .corpo-atendimento{
     display: flex;
