@@ -313,7 +313,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10%;
+    margin: 0.8rem;
 }
 
 .main-menu {
@@ -355,6 +355,19 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.li-section-menu-biblioteca{
+    margin-right: 1.6rem;
+    margin-left: 0.2rem;
+}
+
+.h2-menu-academico{
+    margin: 0.4rem;
+}
+
+.h2-section-bibliotecoa-menu{
+    margin: 1rem;
 }
 
 
