@@ -297,3 +297,70 @@ h1,h2,.foto-configuracoes{
 
 
 /*Final da montagem da tela menu*/
+/* Inicio montagem da tela Atendimento*/
+.corpo-atendimento{
+    display: flex;
+    flex-direction: column;
+}
+.head-atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-atendimento{
+    margin: 2rem;
+    background-color: #D9D9D9;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    filter: drop-shadow(0px 3px 6px #000000);
+}
+
+.h2-atendimento{
+    margin: 1rem;
+}
+
+.li-atendimento{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 8rem;
+}
+
+
+
+.img-relogio {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15%;
+    background-color: #D9D9D9;
+    filter: drop-shadow(0px 3px 6px #000000);
+    max-width: 80px;
+    max-height: 60%;
+}
+
+.img-aviso {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15%;
+    background-color: #D9D9D9;
+    filter: drop-shadow(0px 3px 6px #000000);
+    max-width: 80px;
+    max-height: 60%;
+}
+
+.ul-atendimento{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main-atendimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
